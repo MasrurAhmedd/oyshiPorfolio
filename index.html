@@ -219,7 +219,7 @@
             width: 40px;
         }
 
-        .hero-image {
+   .hero-image {
     width: 500px;
     height: 500px;
     background: var(--light-gray);
@@ -227,6 +227,12 @@
     overflow: hidden;
     border: 1px solid var(--border);
     border-radius: 50%;
+    transition: all 0.6s ease;
+}
+
+.hero-image:hover {
+    border-radius: 0%;
+    transform: scale(1.05);
 }
 
         .hero-image img {
